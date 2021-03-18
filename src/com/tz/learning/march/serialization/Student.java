@@ -39,4 +39,12 @@ public class Student implements Serializable {
     public void SetScore(int score){
         this.score = score;
     }
+
+    public String toString(){
+        return "Student:" + '\n' +
+                "name:" + this.name + '\n' +
+                "age:" +  this.age + '\n' +
+                "score:" + this.score + '\n' +
+                "description:" + this.description;
+    }
 }
