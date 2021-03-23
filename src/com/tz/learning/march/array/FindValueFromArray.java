@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class FindValueFromArray {
-    /*public static void main(String[] args){
+    public static void main(String[] args){
         int[] number = {98,33,22,10,5,3,1};
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入要查找的数字:");
@@ -16,7 +16,7 @@ public class FindValueFromArray {
             }
         }
         System.out.printf("查找的结果是:%d", flag);
-    }*/
+    }
 
     /*public static void main(String[] args){
         int[] number = {98,33,22,10,5,3,1};
