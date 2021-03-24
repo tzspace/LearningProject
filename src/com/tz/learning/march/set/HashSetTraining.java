@@ -20,9 +20,12 @@ public class HashSetTraining {
         System.out.println(hashSet.size());
 
         Iterator iterator = hashSet.iterator();
-        while(iterator.hasNext()){
+        for(int i = 0; i < hashSet.size(); i++){
             System.out.println(iterator.next());
         }
+        /*while(iterator.hasNext()){
+            System.out.println(iterator.next());
+        }*/
     }
 
     static class Person{
@@ -33,7 +36,7 @@ public class HashSetTraining {
             this.name = name;
             this.age = age;
         }
-        public int getAge() {
+        /*public int getAge() {
             return age;
         }
 
@@ -47,7 +50,7 @@ public class HashSetTraining {
 
         public void setName(String name) {
             this.name = name;
-        }
+        }*/
 
         @Override
         public int hashCode(){
