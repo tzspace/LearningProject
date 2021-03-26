@@ -8,7 +8,7 @@ public class RPG {
         swordsMan.setLevel(10);
         ShowBlood(swordsMan);
 
-        System.out.println(swordsMan.toString());
+        System.out.println(swordsMan);
 
 
         Magician magician = new Magician();
@@ -17,7 +17,7 @@ public class RPG {
         magician.setLevel(9);
         ShowBlood(magician);
 
-        System.out.println(magician.toString());
+        System.out.println(magician);
 
 
         drawFight(swordsMan);
