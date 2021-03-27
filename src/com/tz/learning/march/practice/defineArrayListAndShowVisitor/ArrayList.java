@@ -20,7 +20,7 @@ public class ArrayList {
         if(this.next == this.defaultGuestCount){
             list = Arrays.copyOf(list, list.length*2);
             defaultGuestCount = list.length;
-            System.out.println("Current can be stored guest count is " + defaultGuestCount);
+            System.out.println("Current can be stored guest count is: " + defaultGuestCount);
         }
         list[next++] = o;
     }
